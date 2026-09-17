@@ -5,10 +5,10 @@ public:
         int right=height.size()-1;
         int maxArea=0;
         while(left<right){
-            int width=right-left;
+            int width = right-left;
             int h=min(height[left],height[right]);
-            int area=h*width;
-            maxArea=max(maxArea,area);
+            int area = h*width;
+            maxArea = max(maxArea,area);
             if(height[left]<height[right]){
                 left++;
             }
