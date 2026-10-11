@@ -3,6 +3,7 @@ public:
     int totalFruit(vector<int>& fruits) {
         int low=0;
         int res=0;
+        int count=0;
         unordered_map<int,int> mp;
         for(int high=0;high<fruits.size();high++){
             mp[fruits[high]]++;
@@ -12,12 +13,11 @@ public:
                     mp.erase(fruits[low]);
                 }
                 low++;
+                
             }
-            if(mp.size()<=2){
-                int len=high-low+1;
-                res=max(res,len);
-            }
+            res=max(res,high-low+1);
+
         }
-        return res==0?-1:res;
+        return res==0? -1 : res;
     }
 };
