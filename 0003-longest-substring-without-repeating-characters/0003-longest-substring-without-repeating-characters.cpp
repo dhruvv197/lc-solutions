@@ -6,17 +6,15 @@ public:
         unordered_map<char,int> mp;
         for(int high=0;high<s.size();high++){
             mp[s[high]]++;
-            int k=high-low+1;
-            while(mp.size()<k){
+            while(mp.size()<high-low+1){
                 mp[s[low]]--;
                 if(mp[s[low]]==0){
                     mp.erase(s[low]);
                 }
                 low++;
-                k=high-low+1;
             }
-            res=max(res,k);
+            res=max(res,high-low+1);
         }
-        return res;
+        return res ;
     }
 };
