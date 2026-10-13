@@ -13,8 +13,7 @@ public:
             sum+=nums[high];
             low++;
             avg=sum/k;
-            
-            res=max(res,avg);
+            res=max(avg,res);
         }
         return res;
     }
