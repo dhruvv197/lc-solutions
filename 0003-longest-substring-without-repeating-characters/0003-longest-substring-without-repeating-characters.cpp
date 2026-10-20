@@ -15,7 +15,7 @@ public:
                 low++;
                 k=high-low+1;
             }
-            int len=high-low+1;
+
             res=max(res,k);
         }
         return res;
