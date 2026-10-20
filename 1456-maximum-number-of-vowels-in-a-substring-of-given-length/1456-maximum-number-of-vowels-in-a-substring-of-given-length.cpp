@@ -3,9 +3,9 @@ public:
     int maxVowels(string s, int k) {
         int low=0;
         int count=0;
-        int res=INT_MIN;
+        int res=0;
         for(int high=0;high<s.size();high++){
-            if(s[high]=='a'||s[high]=='e'||s[high]=='i'||s[high]=='o'||s[high]=='u'){
+            if(s[high]=='a' || s[high]=='e' || s[high]=='i' || s[high]=='o'|| s[high]=='u'){
                 count++;
             }
             while(high-low+1==k){
@@ -14,7 +14,6 @@ public:
                     count--;
                 }
                 low++;
-
             }
         }
         return res;
