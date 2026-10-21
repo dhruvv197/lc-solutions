@@ -3,6 +3,7 @@ public:
     vector<int> findAnagrams(string s, string p) {
         int k=p.size();
         unordered_map<char,int> need,window;
+        if (p.size() > s.size()) return {};
         for(char c: p){
             need[c]++;
         }
