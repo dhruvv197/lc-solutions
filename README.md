@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/dhruvv197/lc-solutions/tree/master/0202-happy-number) |
+| [2469-convert-the-temperature](https://github.com/dhruvv197/lc-solutions/tree/master/2469-convert-the-temperature) |
 ## Greedy
 |  |
 | ------- |
