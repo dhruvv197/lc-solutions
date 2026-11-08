@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dhruvv197/lc-solutions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/dhruvv197/lc-solutions/tree/master/0011-container-with-most-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvv197/lc-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/dhruvv197/lc-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/dhruvv197/lc-solutions/tree/master/0217-contains-duplicate) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/dhruvv197/lc-solutions/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/dhruvv197/lc-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dhruvv197/lc-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dhruvv197/lc-solutions/tree/master/0142-linked-list-cycle-ii) |
@@ -113,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/dhruvv197/lc-solutions/tree/master/0202-happy-number) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/dhruvv197/lc-solutions/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
