@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/dhruvv197/lc-solutions/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvv197/lc-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/dhruvv197/lc-solutions/tree/master/0027-remove-element) |
+| [0066-plus-one](https://github.com/dhruvv197/lc-solutions/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/dhruvv197/lc-solutions/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/dhruvv197/lc-solutions/tree/master/0118-pascals-triangle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvv197/lc-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/dhruvv197/lc-solutions/tree/master/0066-plus-one) |
 | [0202-happy-number](https://github.com/dhruvv197/lc-solutions/tree/master/0202-happy-number) |
 | [2469-convert-the-temperature](https://github.com/dhruvv197/lc-solutions/tree/master/2469-convert-the-temperature) |
 ## Greedy
