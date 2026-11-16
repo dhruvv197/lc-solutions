@@ -4,13 +4,11 @@ public:
         int i = 0;
         int j = 0;
 
-        while(i < nums.size()) {
-
-            if(nums[i] != val) {
-                nums[j] = nums[i];
+        while(i<nums.size()){
+            if(nums[i]!=val){
+                nums[j]=nums[i];
                 j++;
             }
-
             i++;
         }
 
