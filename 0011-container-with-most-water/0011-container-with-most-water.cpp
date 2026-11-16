@@ -3,12 +3,12 @@ public:
     int maxArea(vector<int>& height) {
         int left=0;
         int right=height.size()-1;
-        int maxArea=0;
+        int maxArea=INT_MIN;
         while(left<right){
             int width=right-left;
             int h=min(height[right],height[left]);
             int area=h*width;
-            maxArea=max(area,maxArea);
+            maxArea=max(maxArea,area);
             if(height[left]<height[right]){
                 left++;
             }
