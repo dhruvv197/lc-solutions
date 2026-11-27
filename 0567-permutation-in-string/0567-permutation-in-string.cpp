@@ -6,7 +6,7 @@ public:
         int m=s2.size();
         if(k>m) return false;
 
-        unordered_map<int,int> need,window;
+        unordered_map<char,int> need,window;
         for(char c: s1){
             need[c]++;
         }
@@ -23,6 +23,7 @@ public:
                     window.erase(s2[low]);
                 }
                 low++;
+                
             }
         }
         return false;
